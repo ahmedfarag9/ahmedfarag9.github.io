@@ -43,7 +43,7 @@ function About({}: Props) {
                 - My name is Ahmed Farag. <br />
                 - I live in Giza, Egypt. <br />
                 - I&apos;m a Software Engineer with a background in Devops, Linux and Robotics. <br />
-                - I have a Bachelor's Degree in Communications and Electronics Engineering.
+                - I have a Bachelor&apos;s Degree in Communications and Electronics Engineering.
 
             </p>
         </div>
