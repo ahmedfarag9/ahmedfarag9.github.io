@@ -39,8 +39,12 @@ function About({}: Props) {
                 Here is a <span className=' underline decoration-[#F7AB0A]/50'>
                 little</span>{" "}background
             </h4>
-            <p className='text-base'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p className=' text-l'>
+                - My name is Ahmed Farag. <br />
+                - I live in Giza, Egypt. <br />
+                - I’m a Software Engineer with a background in Devops, Linux and Robotics. <br />
+                - I have a Bachelor's Degree in Communications and Electronics Engineering.
+
             </p>
         </div>
         
