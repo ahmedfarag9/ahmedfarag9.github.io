@@ -46,22 +46,23 @@ function Skills({}: Props) {
         </h3> */}
 
         <div className='grid grid-cols-4 gap-3 mt-10 md:mt-20 xl:pt-28 pt:30 '>
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
+          {Object.entries(skillsSvgs).map(([icon, svg]) => (
+            <div key={icon} className='card-zoom group relative flex cursor-pointer md items-center justify-center m-0 overflow-hidden  w-full h-full rounded-2xl'>
+                <motion.img
+                // initial={{
+                //     x: directionLeft ? -200 : 200,
+                //     opacity: 0
+                // }}
+                // transition={{ duration: 1 }}
+                // whileInView={{
+                //     opacity: 1,
+                //     x: 0
+                // }}
+                // viewport={{once: true}}
+                src={svg}
+                className='card-zoom-image rounded-full border border-[transparent] object-cover w-16 h-16 md:h-20 md:w-20 xl:w-20 xl:h-20
+                filter group-hover:grayscale transition duration-300 ease-in-out'
+                />
         </div>
 
     </motion.div>
