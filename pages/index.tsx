@@ -7,6 +7,8 @@ import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import WorkExperience from '../components/WorkExperience'
+import profilePic from '../public/avatar.jpg'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -27,10 +29,10 @@ export default function Home() {
         <About/>
       </section>
 
-      <section id="experience" className='snap-center'>
+      {/* <section id="experience" className='snap-center'>
         <WorkExperience/>
       </section>
-      
+       */}
       <section id="skills" className='snap-start'>
         <Skills/>
       </section>
@@ -43,19 +45,19 @@ export default function Home() {
         <ContactMe/>
       </section>
 
-      
+
 
           <footer className='sticky bottom-20 md:bottom-8 justify-end flex w-full pr-10 ' >
             <div className='flex items-center justify-center '>
-      <Link
-      href='#hero'>
+              <Link
+              href='#hero'>
                 <Image
                 className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer '
                 src={profilePic}
                 alt="Home Button" />
               </Link>
-          </div>
-        </footer>
+            </div>
+          </footer>
 
 
     </div>
