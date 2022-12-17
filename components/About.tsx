@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import profilePic from '../public/image.jpg'
+import profilePic from '../public/FullAvatar.jpg'
+import Image from 'next/image'
 
 type Props = {}
 
