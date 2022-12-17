@@ -1,6 +1,13 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import Link from 'next/link'
+import Image from 'next/image'
+import robotPic from '../public/robot.jpg'
+import portfolioPic from '../public/portfolio.png'
+import cicdPic from '../public/cicd.png'
+import uniSearchPic from '../public/uniSearch.png'
+
+
 
 type Props = {}
 
