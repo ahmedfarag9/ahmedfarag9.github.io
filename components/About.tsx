@@ -13,22 +13,22 @@ function About({}: Props) {
     whileInView={{opacity: 1}}
     className=' h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-full
     px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500
+        <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-400
         text-2xl'>
             About
         </h3>
 
-        <motion.img
-        initial={{
-            x: -200,
-            opacity: 0
-        }}
-        transition={{
-            duration: 1.2,
-        }}
-        whileInView={{opacity: 1, x: 0}}
-        viewport={{once: true}}
-        src='https://www.kibrispdr.org/data/30/clip-art-men-1.jpg'
+        <Image
+        // initial={{
+        //     x: -200,
+        //     opacity: 0
+        // }}
+        // transition={{
+        //     duration: 1.2,
+        // }}
+        // whileInView={{opacity: 1, x: 0}}
+        // viewport={{once: true}}
+        src={profilePic}
         alt='user picture'
         className='mt-24 md:mb-0 flex-shrink-0 w-52 h-52 md:w-[300px] md:h-[300px]
         rounded-full object-cover md:rounded-lg 
