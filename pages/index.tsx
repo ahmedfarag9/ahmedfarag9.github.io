@@ -13,10 +13,9 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className='bg-[#363636] text-white h-screen snap-y snap-mandatory
-    overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20
-     scrollbar-thumb-[#F7AB0A]/80'>
+    overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
       <Head>
-        <title>Ahmed's Portfolio</title>
+        <title>Ahmed&apos;s Portfolio</title>
       </Head>
 
       <Header/>
