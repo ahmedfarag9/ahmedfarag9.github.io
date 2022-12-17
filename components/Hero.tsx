@@ -38,22 +38,22 @@ export default function Hero({}: Props) {
             <Cursor cursorColor='#F7AB0A'/>
         </h1>
 
-        <div className='pt-5 '>
+        <div className='pt-6'>
           <Link href='#about'>
             <button className='heroButton'>About</button>
           </Link>
-          <Link href='#experience'>
+          {/* <Link href='#experience'>
             <button className='heroButton'>Experience</button>
-          </Link>
+          </Link> */}
           <Link href='#skills'>
             <button className='heroButton'>Skills</button>
           </Link>
           <Link href='#projects'>
             <button className='heroButton'>Projects</button>
           </Link>
-          <Link href='#contact'>
+          {/* <Link href='#contact'>
             <button className='heroButton'>Contact</button>
-          </Link>
+          </Link> */}
           
         </div>
       </div>
