@@ -28,7 +28,7 @@ function ContactMe({}: Props) {
     <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl
     px-10 justify-evenly mx-auto items-center'>
         
-            <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500
+            <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-400
             text-2xl '>
                 Contact
             </h3>
@@ -39,11 +39,11 @@ function ContactMe({}: Props) {
                 <span className='underline decoration-[#F&AB01]/50'>Let's Talk.</span>
             </h4> */}
 
-            <div className='space-y-8 mt-10 md:mt-20 l:mt-20 xl:mt-20 '>
-                <div className='flex items-center space-x-5 justify-center'>
+            <div className='space-y-8 mt-5 md:mt-5 l:mt-5 xl:mt-10 '>
+                {/* <div className='flex items-center space-x-5 justify-center'>
                     <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
                     <p className='text-xl'>+1234567890</p>
-                </div>
+                </div> */}
 
                 <div className='flex items-center space-x-5 justify-center'>
                     <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
@@ -76,7 +76,7 @@ function ContactMe({}: Props) {
                 <textarea {...register('message')} placeholder=' Message' className='contactInput2'/>
                 <button
                 type='submit'
-                className='bg-[#F7AB0A] py-3 px-10 rounded-md
+                className='bg-[#e09e0f] py-3 px-10 rounded-md
                 text-black font-bold text-lg'>
                     Submit
                 </button>
