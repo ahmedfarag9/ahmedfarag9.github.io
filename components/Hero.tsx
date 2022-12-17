@@ -2,7 +2,7 @@ import React from 'react'
 import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import Image from 'next/image'
-import profilePic from '../public/image.jpg'
+import profilePic from '../public/avatar.jpg'
 import Link from 'next/link'
 
 
@@ -24,12 +24,15 @@ export default function Hero({}: Props) {
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles/>
 
-      <Image
-        className='relative rounded-full h-40 w-40 mx-auto object-cover '
-        src={profilePic}
-        alt='user profile picture'
-      />
-      
+      <div className='card-zoom' >
+        <Image
+          className='card-zoom-image rounded-full object-cover w-40 h-40'
+          src={profilePic}
+          alt='user profile picture'
+        />
+      </div>
+
+
       <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[11px]'>Software Engineer</h2>
 
