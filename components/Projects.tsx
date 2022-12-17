@@ -48,11 +48,17 @@ function Projects({}: Props) {
                 />
         </div>
         <div className="card-content">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae magnam harum natus fuga et repellat in maiores.</p>
+              <p>{project.description}</p>
         </div>
       </div>
       <div className="card-link-wrapper">
-        <a href="" className="card-link">Read More</a>
+            <a
+              href={project.link}
+              className="card-link"
+              target="_blank"
+              rel="noopener noreferrer">
+                Read More
+            </a>
       </div>
     </li>
     <li className="card">
