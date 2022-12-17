@@ -63,6 +63,15 @@ function Skills({}: Props) {
                 className='card-zoom-image rounded-full border border-[transparent] object-cover w-16 h-16 md:h-20 md:w-20 xl:w-20 xl:h-20
                 filter group-hover:grayscale transition duration-300 ease-in-out'
                 />
+                <div className='card-zoom-image absolute opacity-0 group-hover:opacity-60 transition duration-300
+                ease-in-out group-hover:bg-white w-16 h-16 md:h-20 md:w-20 xl:w-20 xl:h-20 rounded-full z-0'>
+                  <div className='flex items-center justify-center h-full'>
+                    <h3 className="skillText card-zoom-text">{icon}</h3>
+                  </div>
+                </div>
+            </div>
+          ))}
+
         </div>
 
     </motion.div>
