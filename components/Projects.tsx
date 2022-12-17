@@ -13,7 +13,14 @@ type Props = {}
 
 function Projects({}: Props) {
 
-  const projects = [1, 2, 3, 4, 5];
+  const projects = {
+    1: {name:"Modern Portfolio", picture: portfolioPic, description:"Modern Portfolio Built with REACT.JS & NEXT.JS Using (JavaScript, TypeScript, Framer Motion, Tailwind CSS)", link:"https://github.com/ahmedfarag9/modern-portfolio-reactjs-nextjs"},
+    2: {name:"CI-CD Pipeline", picture: cicdPic, description:"A Multi-branch CI-CD Pipeline Using Jenkins, Docker & AWS To Deploy Odoo ERP instance & a simple Java Maven app.", link:"https://github.com/ahmedfarag9/CI-CD-Pipeline-Jenkins-Odoo-Project"},
+    3: {name:"Humanoid Robot", picture: robotPic, description:"A Humanoid Robot Built From Scratch (Graduation Project).", link:"https://github.com/ahmedfarag9/humaniod-robot-graduation-project"},
+    4: {name:"Uni-Search Egypt", picture: uniSearchPic, description:"A React-Native mobile app to search among hundreds of Egyptian Universities. (published on Google Play)", link:"https://github.com/ahmedfarag9/UniSearch-Egypt"},
+   }
+
+
 
   return (
 <div className="h-screen relative flex overflow-hidden flex-col text-left
