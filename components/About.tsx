@@ -35,7 +35,7 @@ function About({}: Props) {
         xl:w-[400px] xl:h-[400px] '
         /> */}
         <div className='space-y-3 px-0 md:px-10 mb-20'>
-            <h4 className='text-xl font-semibold mb-10'>
+            <h4 className='text-xl font-semibold mb-10 text-center'>
                 Here is a little background
             </h4>
             <p className=' text-l'>
