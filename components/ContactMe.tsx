@@ -21,7 +21,7 @@ function ContactMe({}: Props) {
         handleSubmit,
     } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = formData => {
-        window.location.href = 'mailto:test@gmail?subject=${formData.subject}&body=Hi, my name is ${formData.name}, ${formData.message} (${formData.email})' ;
+        window.location.href = `mailto:ahmedfarag.tech@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}, ${formData.message}` ;
     }
 
   return (
