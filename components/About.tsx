@@ -18,7 +18,7 @@ function About({}: Props) {
             About
         </h3>
 
-        <Image
+        {/* <Image
         // initial={{
         //     x: -200,
         //     opacity: 0
@@ -33,11 +33,10 @@ function About({}: Props) {
         className='mt-24 md:mb-0 flex-shrink-0 w-52 h-52 md:w-[300px] md:h-[300px]
         rounded-full object-cover md:rounded-lg 
         xl:w-[400px] xl:h-[400px] '
-        />
-        <div className='space-y-3 px-0 md:px-10'>
-            <h4 className='text-xl font-semibold '>
-                Here is a <span className=' underline decoration-[#F7AB0A]/50'>
-                little</span>{" "}background
+        /> */}
+        <div className='space-y-3 px-0 md:px-10 mb-20'>
+            <h4 className='text-xl font-semibold mb-10'>
+                Here is a little background
             </h4>
             <p className=' text-l'>
                 - My name is Ahmed Farag. <br />
