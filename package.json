@@ -1,6 +1,6 @@
 {
   "name": "ahmedfarag9.github.io",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "homepage": "https://ahmedfarag9.github.io",
   "scripts": {
@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d .next/server/pages"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@heroicons/react": "^2.0.13",
     "framer-motion": "^7.6.2",
     "next": "13.0.0",
