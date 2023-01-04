@@ -1,27 +1,26 @@
 import React from 'react'
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 import Projects from './Projects'
-import { useForm, SubmitHandler } from "react-hook-form";
+import { /*useForm,*/ SubmitHandler } from "react-hook-form";
+import { useForm, ValidationError } from '@formspree/react';
+
 import Link from 'next/link'
 
 type Props = {}
 
-type Inputs = {
-    name: string,
-    email: string,
-    subject: string,
-    message: string,
-};
+// type Inputs = {
+//     name: string,
+//     email: string,
+//     subject: string,
+//     message: string,
+// };
 
 
 function ContactMe({}: Props) {
 
-    const {
-        register,
-        handleSubmit,
-    } = useForm<Inputs>();
-    const onSubmit: SubmitHandler<Inputs> = formData => {
-        window.location.href = `mailto:ahmedfarag.tech@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}, ${formData.message}` ;
+    const [state, handleSubmit] = useForm("xayzyova");
+    if (state.succeeded) {
+        alert('Thanks for reaching out!');
     }
 
   return (
