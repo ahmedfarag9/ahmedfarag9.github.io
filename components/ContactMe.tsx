@@ -64,10 +64,21 @@ function ContactMe({}: Props) {
                     placeholder=' Name'
                     className='contactInput' type="text"
                     />
-                    <input {...register('email')}
-                    placeholder=' Email'
-                    className='contactInput' type="email"
+
+
+                    <input
+                        id="email"
+                        type="email" 
+                        name="email"
+                        placeholder=' Email'
+                        className='contactInput'
                     />
+                    <ValidationError
+                        prefix="Email" 
+                        field="email"
+                        errors={state.errors}
+                    />
+
                 </div>
 
                 <textarea
