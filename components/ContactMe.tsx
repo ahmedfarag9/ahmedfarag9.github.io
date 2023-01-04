@@ -57,13 +57,25 @@ function ContactMe({}: Props) {
             </div>
 
 
-
-            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-1 w-fit mx-auto '>
+            <form onSubmit={handleSubmit} className='flex flex-col space-y-1 w-fit mx-auto '>
                 <div className='flex space-x-1'>
-                    <input {...register('name')}
-                    placeholder=' Name'
-                    className='contactInput' type="text"
+                    {/* <label htmlFor="email">
+                        Email Address
+                    </label> */}
+
+                    <input
+                        id="name"
+                        type="name" 
+                        name="name"
+                        placeholder=' Name'
+                        className='contactInput'
                     />
+                    <ValidationError
+                        prefix="Name" 
+                        field="name"
+                        errors={state.errors}
+                    />
+
 
 
                     <input
