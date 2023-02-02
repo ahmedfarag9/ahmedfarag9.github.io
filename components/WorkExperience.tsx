@@ -1,6 +1,11 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import Link from 'next/link'
+import Image from 'next/image'
 import ExperienceCard from './ExperienceCard'
+import itSpecialistPic from '../public/itSpecialist.jpg'
+import freelancePic from '../public/freelance.webp'
+
 
 
 type Props = {}
