@@ -12,27 +12,52 @@ type Props = {}
 
 function WorkExperience({}: Props) {
   return (
-    <motion.div 
-    initial={{ opacity: 0 }}
-    transition={{ duration: 1 }}
-    whileInView={{opacity: 1}}
-    className='h-screen relative flex overflow-hidden flex-col text-center md:text-left xl:text-left
-    max-w-full justify-evenly mx-auto items-center z-0'>
-        <h3
-        className='absolute top-20 uppercase tracking-[20px] text-gray-500
+  <div className="h-screen relative flex overflow-hidden flex-col text-left
+      max-w-full justify-evenly mx-auto items-center z-0 pr-3">
+
+    <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-400
         text-2xl'>
-        Experience
-        </h3>
+          Experience
+    </h3>
+
+    <div className='container mt-20 mb-5'>
+
+    <ul className="cards">
+      {Object.entries(experiences).map(([key, experience]) =>  (
+
+
+        <li key={key} className="card">
+          <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
+          w-[300px] md:w-[600px] xl:w-[600px] snap-center bg-[#292929 p-10] hover:opacity-100
+          opacity-90 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+              <Image
+              className='w-32 h-32 rounded-full object-cover object-center' 
+                  src={experience.picture}
+                  alt=""
+                  height={400}
+                  width={500}
+              />
+
+              <div className='px-0 md:px-10'>
+                  <h4 className='uppercase text-3xl font-light'>{experience.name}</h4>
+                  <p className='uppercase font-bold text-xl mt-1'>{experience.company}</p>
+                  <p className='uppercase py-5 text-gray-300'>{experience.timelapse}</p>
+                  <ul className='list-disc space-y-4 text-sm md:text-xl'>
+                      <li>{experience.summary1}</li>
+                      <li>{experience.summary2}</li>
+                      <li>{experience.summary3}</li>
+                  </ul>
+              </div>
+          </article>
+
+        </li>
+
+      ))}
+
+    </ul>
     
-    <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mt-20
-    scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 '>
-        <ExperienceCard/>
     </div>
-
-    <div className='w-full absolute top-[30%] bg-[#F7AB01]/10 left-0 h-[500px]
-      -skew-y-12 '/>
-
-    </motion.div>
+  </div>
   )
 }
 
