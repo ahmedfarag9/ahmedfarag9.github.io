@@ -38,7 +38,7 @@ function About({}: Props) {
         alt='user picture'
         className='mt-24 md:mb-0 flex-shrink-0 w-52 h-52 md:w-[300px] md:h-[300px]
         rounded-full object-cover md:rounded-lg 
-        xl:w-[350px] xl:h-[300px] '
+        xl:w-[350px] xl:h-[300px]'
         />
         <div className='space-y-3 px-0 md:px-10 mb-20'>
             <h4 className='text-xl font-semibold mb-10 '>
