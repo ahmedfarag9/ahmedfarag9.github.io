@@ -60,12 +60,14 @@
 
   :root {
     --red: #ef233c;
-    --darkred: #f2072e;
+    --darkred: #f3163b;
     --platinum: #e5e5e5;
     --black: #2b2d42;
     --white: #fff;
     --thumb: #edf2f4;
     --yellow: #e09e0f;
+    --green: #1cff07;
+    --lightblue: #07eeff;
     --blue: #1b1c1d;
     --skyblue: #09628c;
     --lightyellow: #dddd4d;
@@ -100,7 +102,7 @@
     display: flex;
     padding: 25px 0px;
     list-style: none;
-    overflow-x: scroll;
+    overflow-x: auto;
     scroll-snap-type: x mandatory;
   }
 
