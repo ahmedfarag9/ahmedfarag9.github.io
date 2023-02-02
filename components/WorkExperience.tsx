@@ -11,6 +11,14 @@ import freelancePic from '../public/freelance.webp'
 type Props = {}
 
 function WorkExperience({}: Props) {
+
+  const experiences = {
+    1: {name:"IT SPECIALIST", company: "the Egyptian Armed Forces", timelapse: "Jun 2021 - Jun 2022 · 1 yr 1 mo", picture: itSpecialistPic, summary1: "Installing new software and hardware components.", summary2: "Network administration and troubleshooting.", summary3: "Ensuring data storage is safe and secure."},
+    2: {name:"Devops engineer", company: "Freelance", timelapse: "Dec 2022 - Present", picture: freelancePic, summary1: "Working with various tools and cloud services.", summary2: "Managing AWS instances.", summary3: "Creating and composing Docker clusters."},
+  }
+
+
+
   return (
   <div className="h-screen relative flex overflow-hidden flex-col text-left
       max-w-full justify-evenly mx-auto items-center z-0 pr-3">
