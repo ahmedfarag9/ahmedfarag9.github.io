@@ -59,6 +59,15 @@ function Projects({}: Props) {
               rel="noopener noreferrer">
                 Read More
             </a>
+            {project.preview &&
+            <a
+              href={project.preview}
+              className="card-link-with-preview m-5"
+              target="_blank"
+              rel="noopener noreferrer">
+                Live Preview
+            </a>
+            }
           </div>
         </li>
 
