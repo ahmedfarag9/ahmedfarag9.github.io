@@ -47,8 +47,8 @@ function About({}: Props) {
             <p className=' text-l'>
                 - My name is Ahmed Farag. <br />
                 - I live in Giza, Egypt. <br />
-                - I&apos;m a Software Engineer with a background in Devops, Linux and Robotics. <br />
-                - I have a Bachelor&apos;s Degree in Communications and Electronics Engineering.
+                - I&apos;m a Software Engineer with a background in Devops and Linux. <br />
+                - I have a Bachelor Degree in Communications and Electronics Engineering.
 
             </p>
         </div>
