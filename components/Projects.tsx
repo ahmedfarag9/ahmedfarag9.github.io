@@ -7,6 +7,8 @@ import portfolioPic from '../public/portfolio.png'
 import cicdPic from '../public/cicd.png'
 import uniSearchPic from '../public/uniSearch.png'
 import elearningWebsitePic from '../public/e-learning-website.png'
+import airbyteAirflow from '../public/airbyte_airflow.png'
+import redis from '../public/redis.png'
 
 
 
@@ -15,11 +17,13 @@ type Props = {}
 function Projects({}: Props) {
 
   const projects = {
-    1: {name:"Modern Portfolio", picture: portfolioPic, description:"Modern Portfolio Built with REACT.JS & NEXT.JS Using (JavaScript, TypeScript, Framer Motion, Tailwind CSS)", link:"https://github.com/ahmedfarag9/modern-portfolio-reactjs-nextjs", preview:''},
-    2: {name:"CI-CD Pipeline", picture: cicdPic, description:"A Multi-branch CI-CD Pipeline Using Jenkins, Docker & AWS To Deploy Odoo ERP instance & a simple Java Maven app.", link:"https://github.com/ahmedfarag9/CI-CD-Pipeline-Jenkins-Odoo-Project", preview: ''},
-    3: {name:"E-learning Website", picture: elearningWebsitePic, description:"An E-learning Website Built with pure HTML, JAVASCRIPT & CSS", link:"https://starlit-llama-47c3ea.netlify.app/", preview:"https://starlit-llama-47c3ea.netlify.app/"},
-    4: {name:"Humanoid Robot", picture: robotPic, description:"A Humanoid Robot Built From Scratch (Graduation Project).", link:"https://github.com/ahmedfarag9/humaniod-robot-graduation-project", preview: ''},
-    5: {name:"Uni-Search Egypt", picture: uniSearchPic, description:"A React-Native mobile app to search among hundreds of Egyptian Universities. (published on Google Play)", link:"https://github.com/ahmedfarag9/UniSearch-Egypt", preview: ''},
+    1: {name:"CI-CD Pipeline", picture: cicdPic, description:"A Multi-branch CI-CD Pipeline Using Jenkins, Docker & AWS To Deploy Odoo ERP instance & a simple Java Maven app.", link:"https://github.com/ahmedfarag9/CI-CD-Pipeline-Jenkins-Odoo-Project", preview: ''},
+    2: {name:"Airbyte Airflow Intergration", picture: airbyteAirflow, description:"An Airbyte/Airflow Api integration - Airbyte handles the Api connection & Airflow does the orchestration.", link:"https://github.com/ahmedfarag9/airbyte-airflow-api-intergration", preview: ''},
+    3: {name:"Redis Setup on AWS", picture: redis, description:"Guide to Setup Redis Development Stack on AWS EC2 instance", link:"https://github.com/ahmedfarag9/redis-setup-aws-ec2", preview: ''},
+    4: {name:"Modern Portfolio", picture: portfolioPic, description:"The one you're reading now. Built with REACT.JS & NEXT.JS Using (JavaScript, TypeScript, Framer Motion, Tailwind CSS)", link:"https://github.com/ahmedfarag9/modern-portfolio-reactjs-nextjs", preview:''},
+    5: {name:"E-learning Website", picture: elearningWebsitePic, description:"An E-learning Website Built with pure HTML, JAVASCRIPT & CSS", link:"https://github.com/ahmedfarag9/elearning-website", preview:"https://starlit-llama-47c3ea.netlify.app/"},
+    6: {name:"Humanoid Robot", picture: robotPic, description:"A Humanoid Robot Built From Scratch (Graduation Project).", link:"https://github.com/ahmedfarag9/humaniod-robot-graduation-project", preview: ''},
+    7: {name:"Uni-Search Egypt", picture: uniSearchPic, description:"A React-Native mobile app to search among hundreds of Egyptian Universities. (published on Google Play)", link:"https://github.com/ahmedfarag9/UniSearch-Egypt", preview: ''},
   }
 
 
