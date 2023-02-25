@@ -46,7 +46,7 @@ export default function Home() {
 
 
 
-          <footer className='sticky bottom-20 md:bottom-8 justify-end flex w-full pr-10 ' >
+          {/* <footer className='sticky bottom-20 md:bottom-8 justify-end flex w-full pr-10 ' >
             <div className='flex items-center justify-center '>
               <Link
               href='#hero'>
@@ -56,7 +56,7 @@ export default function Home() {
                 alt="Home Button" />
               </Link>
             </div>
-          </footer>
+          </footer> */}
 
 
     </div>
