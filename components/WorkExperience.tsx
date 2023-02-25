@@ -14,7 +14,7 @@ function WorkExperience({}: Props) {
 
   const experiences = {
     1: {name:"IT SPECIALIST", company: "the Egyptian Armed Forces", timelapse: "Jun 2021 - Jun 2022 · 1 yr 1 mo", picture: itSpecialistPic, summary1: "Installing new software and hardware components.", summary2: "Network administration and troubleshooting.", summary3: "Ensuring data storage is safe and secure."},
-    2: {name:"Devops engineer", company: "Freelance", timelapse: "Dec 2022 - Present", picture: freelancePic, summary1: "Working with various tools and cloud services.", summary2: "Managing AWS instances.", summary3: "Creating and composing Docker clusters."},
+    2: {name:"Devops engineer", company: "Freelance", timelapse: "Jan 2023 - Present", picture: freelancePic, summary1: "Working with various tools and cloud services.", summary2: "Managing AWS instances.", summary3: "Creating and composing Docker clusters."},
   }
 
 
@@ -28,7 +28,7 @@ function WorkExperience({}: Props) {
           Experience
     </h3>
 
-    <div className='container mt-20 mb-5'>
+    <div className='container mt-28 mb-5'>
 
     <ul className="cards">
       {Object.entries(experiences).map(([key, experience]) =>  (
