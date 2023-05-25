@@ -1,6 +1,6 @@
 {
   "name": "ahmedfarag9.github.io",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "private": true,
   "homepage": "https://ahmedfarag9.github.io",
   "scripts": {
@@ -20,7 +20,7 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.39.1",
     "react-router-dom": "^6.4.3",
-    "react-simple-typewriter": "^4.0.5",
+    "react-simple-typewriter": "5.0.1",
     "react-social-icons": "^5.15.0"
   },
   "devDependencies": {
