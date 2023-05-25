@@ -12,11 +12,11 @@ export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       'Hi, The Name is Ahmed',
-      'Guy-who-loves-Reading.tsx',
-      '<ButLovesToCodeMore/>'
+      // 'Guy-who-loves-Reading.tsx',
+      // '<ButLovesToCodeMore/>'
     ],
-    loop: true,
-    delaySpeed: 2000,
+    loop: 1,
+    // delaySpeed: 2000,
   })
 
 

@@ -34,7 +34,7 @@ function ContactMe({}: Props) {
         
         <div className='flex flex-col space-y-6 '>
             <h4 className='text-4xl font-semibold text-center'>
-                Fill out the form below to get in touch with me.
+                Get in touch with me.
             </h4>
 
             <div className='space-y-8 mt-5 md:mt-5 l:mt-5 xl:mt-10 '>
