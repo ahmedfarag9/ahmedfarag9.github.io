@@ -59,7 +59,7 @@ function About({}: Props) {
             {/* <h4 className='text-xl font-semibold mb-10 text-center'>
                 Here is a little background..
             </h4> */}
-            <p className='text-xl px-80'>
+            <p className='text-xl px-50'>
                 Welcome to my online portfolio! My name is Ahmed Farag. I am a Software Engineer based in Giza, Egypt. With a strong interest in DevOps, I strive to bridge the gap between software development and operations to build robust and scalable systems.<br/><br/>
 
                 I hold a Bachelor&apos;s Degree in Communications and Electronics Engineering, which has provided me with a solid foundation in technical knowledge and problem-solving skills.<br/><br/>
