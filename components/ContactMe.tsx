@@ -32,8 +32,8 @@ function ContactMe({}: Props) {
                 Contact
             </h3>
         
-        <div className='flex flex-col space-y-6 '>
-            <h4 className='text-4xl font-semibold text-center'>
+        <div className='flex flex-col space-y-6'>
+            <h4 className='text-4xl font-semibold text-center mb-20'>
                 Get in touch with me.
             </h4>
 
