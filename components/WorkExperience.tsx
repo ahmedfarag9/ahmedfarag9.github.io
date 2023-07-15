@@ -14,7 +14,7 @@ function WorkExperience({}: Props) {
 
   const experiences = {
     1: {name:"IT SPECIALIST", company: "the Egyptian Armed Forces", timelapse: "Jun 2021 - Jun 2022 · 1 yr 1 mo", picture: itSpecialistPic, summary1: "Installing new software and hardware components.", summary2: "Network administration and troubleshooting.", summary3: "Ensuring data storage is safe and secure."},
-    2: {name:"Devops engineer", company: "Freelance", timelapse: "Jan 2023 - Present", picture: freelancePic, summary1: "Working with various tools and cloud services.", summary2: "Managing AWS instances.", summary3: "Creating and composing Docker clusters."},
+    2: {name:"Devops engineer", company: "Freelance", timelapse: "Jan 2023 - Present", picture: freelancePic, summary1: "Working with various tools and cloud technologies.", summary2: "Managing AWS and GCP instances & services.", summary3: "Dockerizing & Deploying applications."},
   }
 
 

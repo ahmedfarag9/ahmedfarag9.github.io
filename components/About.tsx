@@ -56,10 +56,10 @@ function About({}: Props) {
         
 
         <div className='space-y-3 md:px-10'>
-            {/* <h4 className='text-xl font-semibold mb-10 text-center'>
+            <h2 className='font-semibold mb-10 text-center'>
                 Here is a little background..
-            </h4> */}
-            <p className='text-xl px-50'>
+            </h2>
+            {/* <p className='text-xl px-50'>
                 Welcome to my online portfolio! My name is Ahmed Farag. I am a Software Engineer based in Giza, Egypt. With a strong interest in DevOps, I strive to bridge the gap between software development and operations to build robust and scalable systems.<br/><br/>
 
                 I hold a Bachelor&apos;s Degree in Communications and Electronics Engineering, which has provided me with a solid foundation in technical knowledge and problem-solving skills.<br/><br/>
@@ -67,7 +67,21 @@ function About({}: Props) {
                 I am particularly fascinated by the DevOps philosophy, as it allows me to combine my technical expertise with my passion for optimizing software delivery processes. By leveraging automation, continuous integration and deployment, and cloud technologies, I aim to streamline development workflows and enhance the overall efficiency and reliability of software systems.<br/><br/>
 
                 This online portfolio showcases my projects, experiences, and skills as a Software Engineer. Feel free to explore and learn more about my work. If you have any inquiries or potential collaborations, please don&apos;t hesitate to reach out.
-            </p>
+            </p> */}
+            <div className='container-about'>
+                <p className=''>
+                    My name is Ahmed Farag. I am a Software Engineer based in Giza, Egypt. With a strong interest in DevOps, I strive to bridge the gap between software development and operations to build robust and scalable systems.
+                    <br/><br/>
+
+                    I hold a Bachelor&apos;s Degree in Communications and Electronics Engineering, which has provided me with a solid foundation in technical knowledge and problem-solving skills.
+                    <br/><br/>
+
+                    By leveraging fullstack software development, automation, continuous integration and deployment, and cloud technologies, I aim to streamline development workflows and enhance the overall efficiency and reliability of software systems.
+                    <br/><br/>
+
+                    This online portfolio showcases my projects, experiences, and skills as a Software Engineer. Feel free to explore and learn more about my work. If you have any inquiries or potential collaborations, please don&apos;t hesitate to reach out.
+                </p>
+            </div>
         </div>
     </motion.div>
   )

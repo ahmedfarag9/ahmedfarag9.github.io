@@ -40,7 +40,7 @@
 
   .card-zoom-project-image {
     @apply relative w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover object-contain;
-  }  
+  }
 
   .card-zoom-text {
     @apply absolute text-xs font-black transition-all duration-500 ease-in-out transform scale-150 text-[#000000] opacity-60;
@@ -204,6 +204,9 @@
     .card:not(:last-child) {
       margin-right: 30px;
     }
+    p {
+      font-size: 1.1rem;
+    }
   }
 
   @media (min-width: 1100px) {
@@ -213,6 +216,20 @@
 
     .card:not(:last-child) {
       margin-right: 40px;
+    }
+  }
+
+  /*style for mobile devices  */
+  @media (max-width: 600px) {
+    .container-about {
+      max-width: 300px;
+      max-height: 400px;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.60rem;
     }
   }
 
