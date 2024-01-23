@@ -2,7 +2,7 @@ import React from 'react'
 import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import Image from 'next/image'
-import profilePic from '../public/avatar.jpg'
+// import profilePic from '../public/avatar.jpg'
 import Link from 'next/link'
 
 
@@ -27,8 +27,10 @@ export default function Hero({}: Props) {
       <div className='card-zoom' >
         <Image
           className='card-zoom-image rounded-full object-cover w-40 h-40'
-          src={profilePic}
-          alt='user profile picture'
+          // src={profilePic}
+          // alt='user profile picture'
+          src={''}
+          alt=''
         />
       </div>
 
